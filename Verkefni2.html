@@ -49,11 +49,11 @@
                     <img src="img/logo.jpg" alt="Mynd af vinirjónasar logo" class="center">
                         <p>Eftir það smellti ég á new document í inkscape og svo fór ég í document properties og stillti stærðina í 100x50cm.</p>					
                         <p>Svo dróg ég jpg myndina inn í inkscape og fór svo í trace bit map sem breytti pixlunum í vigra eins og má sjá á mynd 1 og 2 </p>
-                        <div class="container">
-                            <div class="image-wrapper">
+                        <div class="container9">
+                            <div class="image-wrapper9">
                                 <img src="img/Pixlamynd.jpg" alt="Image 1">
                             </div>
-                            <div class="image-wrapper">
+                            <div class="image-wrapper9">
                                 <img src="img/Vigurmynd.jpg" alt="Image 2">
                             </div>
                         </div>
@@ -65,6 +65,8 @@
                         
                         <h4><b>Laserskurður</b></h4> 
                         <p>Ég ákvað að gera pressfit módel af project X partý gleraugum.</p>
+                        <p> Myndin fyrir neðan notaði ég sem gróflegan innblástur</p>
+                    <img src="img/Party gleraugu.png" alt="partygleraugu" class="center">   
                         <p>Ég byrjaði á því að hanna hliðarnar á gleraugnum sjálfum en þar sem einu parametrarnir sem skiptu máli voru hæðin á hliðunum sem tengjast fremri hliðinni og breiddin inn í gatið.</p>
                     <img src="img/glerauguhlidar.jpg" alt="Mynd af hliðum gleraugna" class="center">
 
@@ -91,7 +93,37 @@
                         <p>Eftir það þá crashaði tölvan mín alltaf þegar ég opnaði file-ið í inkscape þannig ég fékk að nota tölvu úr VR3 til að klára verkefnið en er því ekki með fleiri myndir af uppsetningunni. En svo stilti ég stærðina á blaðinu, breytti tillingum í fill and stroke og færði hlutina til svo að þeir taki sem minnst pláss á skurðarfleti. </p>
                         <p>Svo vista ég það sem .dxf og fylgdi leiðbeiningum Hafliða á laserskurðinum og svo kom þetta að lokum svona út.</p>
                     <img src="img/Tilbuingleraugu.jpg" alt="Mynd af gleraugum" class="center">
-                    <a href="svg/Limmiði.svg" download>Límmiðinn</a>
+                    <h3>Endurbæting og Kerf</h3> 
+                    <p>Við endurbætinguna á gleraugunum ákvað ég að gera einhverskonar ofurhetjugleraugu. Ég á ennþá eftir að finna hvaðan ég fékk innblástur fyrir þessi gleraugu en ég er frekar viss að það var einhver ofurhetja. En þar sem þetta var bara til í hausnum mínum fann ég ekki gleraugun sem ég fékk innblásturinn frá.</p>
+                    <h4><b>Kerf</b></h4> 
+                    <p>Þar sem geislinn er með ákveðna þykkt þarf að finna út hvað kerf á honum svo að ysti hluti geislans myndi skera snerta útlínurnar á teikningunni.</p>
+                    <h3>Mynd</h3>
+                    <p>Til þess að finna kerf framkvæmdi ég kerf prófun og Þá byrjaði ég á því að teikna sex kassa hlið við hlið eins og má sjá á myndinni fyrir ofan sem ég myndi svo skera út en ég lenti í veseni með fusion þar sem það neytaði að skera út miðjuna svo ég teiknaði út kerf í inkscape svo saveaði ég það sem .dxf og gerði það sama og þegar ég skar út fyrstu gleraugun.</p>
+                    <p>Svo mældi ég bilið sem allir kassarnig saman bjuggu til og svo mældi ég lengdina á öllum kössunum samanlagt svo mínusaði ég það og deildi með fjölda bilum.</p>
+                    <h3>Mynd</h3>
+                    <h3>Mynd</h3>
+                    <p>Ég fékk að bilið hjá öllum kössunum væri 10,09 og lengdin á kössunum væri 9,82 og því er kerf (10,09-9,82)/7 =0.03. Sem er greinilega soldið stórt svo ég spurði hafliða og hann sagði að ég gæti notað 0.02.</p>
+                    <h4><b>Endurbætt gleraugu</b></h4>
+                    <h5><b>Parametrar</b></h5>
+                    <p>Fyrir nýju gleraugun notaði ég parametra sem miðuðu að mestu leyti við Þykkt efnis, beydd fremri hluta og lengd hliðanna. Parametrarnir sem ég notaði má sjá á myndinni hér fyrir neðan:</p>
+                    <h3>Mynd</h3>
+                    <p>Svo teiknaði ég gleraugun á svipaðan máta og hin nema notaði parametrana sem ég gaf mér sem má sjá á myndinni fyrir ofan.
+                        Lokateikningin kom út svona:</p>
+                    <h3>Mynd</h3>
+                    <p>Svo til þess að prófa hvort parametrarnir hjá mér væru réttir stækkaði ég þykktina um 10mm. Þá sá gatið fyrir eina hliðina á gleraugunum væri ekki á réttum stað eins og má sjá á myndinni fyrir neðan.</p>
+                    <h3>Mynd</h3>
+                    <p>Til þess að laga þetta fór ég í sketchið og hægrismellti svo á punktinn tengdann við endann og smellti svo á fix, sem á að festa punktinn við endann sem gerir því gatið í fastri fjarlægð jafna þykktarinnar frá endanum.</p>
+                    <h3>Mynd</h3>
+                    <p>Eftir það horfði ég á þetta video <a href="https://www.youtube.com/watch?v=ZYj37I88-4g" target="_blank">https://wwwyoutube.com/watch?v=ZYj37I88-4g</a> til þess að setja alla hlutina á sama ás:</p>
+                    <h3>Mynd</h3>
+                    <p>Ég gerði það með align featurinum og alignaði hliðarnar miðað við fremri hluta þar sem fremri hlutinn lá á x-y fletinum.</p>
+                    <p>Svo gerði ég það sama og með fyrri gleraugun til þess að skera gleraugun út </p>
+                    <h3>Mynd</h3>
+                    <p>Komu gleraugun út svona:</p>
+                    <h3>Mynd</h3>
+                    <p>Pressfittið passar fullkomnlega og ekkert lím þurfti við samsetningu.</p>
+
+
                     <h3>Tímatafla</h3>
                     <table>
                         <tr>
@@ -123,6 +155,11 @@
                             <th>20</th>
                         </tr>
                     </table>
+                    <h3>Hönnunarskjöl</h3>
+                    <a href="svg/Limmiði.svg" download>Límmiðinn</a>
+                    <p><a href="https://a360.co/4b6dRgE">Endurbætt gleraugu</a></p>
+
+
 				</section>
 
 			<!-- Footer -->
